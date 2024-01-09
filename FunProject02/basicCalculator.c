@@ -49,16 +49,16 @@ int main(void)
 		add();
 		break;
 	case '-':
-	    sub();
+	        sub();
 		break;
 	case '*':
-	    mul();
+	        mul();
 		break;
 	case '/':
-	    div();
+	        div();
 		break;
 	default:
-	    printf("Wrong input\n");
+	        printf("Wrong input\n");
 		break;
 	}
 	printf("Enter your choice +, -, *, /: ");

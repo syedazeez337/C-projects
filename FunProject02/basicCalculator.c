@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int x, y;
 
@@ -39,7 +38,7 @@ int main(void)
 {
 	char choice;
 	printf("Enter your choice +, -, *, / or `q` for quit: ");
-	scanf("%s", &choice);
+	scanf(" %c", &choice);
 
 	while(choice != 'q')
 	{

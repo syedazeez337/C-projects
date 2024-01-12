@@ -11,7 +11,7 @@ int main(void)
 				{
                 char choice;
                 printf("Enter your choice calculate tip(t) or quit(q): ");
-                scanf("%s", &choice);
+                scanf(" %c", &choice);
                 //printf("%c %X\n", choice, choice);
                 /*
                 This bug in this programme: the getchar() takes the return(enter)
